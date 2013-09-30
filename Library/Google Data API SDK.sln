@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Data Extensions", "extensions\Common Data Extensions.csproj", "{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Access Control", "gacl\Access Control.csproj", "{279D35CE-871A-4C76-B823-A73675EDF191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts", "gcontacts\Contacts.csproj", "{66B2AD47-7DD2-43E5-9124-D53486609992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core Client", "core\Core Client.csproj", "{B6F6D938-0D45-42BA-8A67-55D92EF03995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documents3", "documents3\Documents3.csproj", "{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocListExporter", "DocListExporter\DocListExporter.csproj", "{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocListUploader", "DocListUploader\DocListUploader.csproj", "{E85CC897-2192-4C43-BEC1-941FE8560786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ASP|Any CPU = ASP|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DocListUploader - Release|Any CPU = DocListUploader - Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279D35CE-871A-4C76-B823-A73675EDF191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B2AD47-7DD2-43E5-9124-D53486609992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F6D938-0D45-42BA-8A67-55D92EF03995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.ASP|Any CPU.ActiveCfg = ASP|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.ASP|Any CPU.Build.0 = ASP|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E97E7C2-D30C-48ED-9C3D-FFA2127099AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.DocListUploader - Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.DocListUploader - Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6C0183-78AA-4DC4-BB1A-35A181F11F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.ASP|Any CPU.ActiveCfg = Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.ASP|Any CPU.Build.0 = Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.DocListUploader - Release|Any CPU.ActiveCfg = DocListUploader - Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.DocListUploader - Release|Any CPU.Build.0 = DocListUploader - Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85CC897-2192-4C43-BEC1-941FE8560786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

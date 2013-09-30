@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C8CB832-3F44-4963-8C89-437AAAA7765D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Google.GData.ContentForShopping</RootNamespace>
+    <AssemblyName>Google.GData.ContentForShopping</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\contentforshopping.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\version\AssemblyVersion.cs">
+      <Link>AssemblyVersion.cs</Link>
+    </Compile>
+    <Compile Include="elements\adwordsgrouping.cs" />
+    <Compile Include="elements\adwordslabels.cs" />
+    <Compile Include="elements\adwordsqueryparam.cs" />
+    <Compile Include="elements\adwordsredirect.cs" />
+    <Compile Include="elements\contentlanguage.cs" />
+    <Compile Include="elements\brand.cs" />
+    <Compile Include="elements\condition.cs" />
+    <Compile Include="elements\adult.cs" />
+    <Compile Include="elements\color.cs" />
+    <Compile Include="elements\availability.cs" />
+    <Compile Include="elements\agegroup.cs" />
+    <Compile Include="elements\author.cs" />
+    <Compile Include="elements\channel.cs" />
+    <Compile Include="elements\additionalimagelink.cs" />
+    <Compile Include="elements\customattribute.cs" />
+    <Compile Include="elements\customgroup.cs" />
+    <Compile Include="elements\datapoint.cs" />
+    <Compile Include="elements\performance.cs" />
+    <Compile Include="elements\saleprice.cs" />
+    <Compile Include="elements\salepriceeffectivedate.cs" />
+    <Compile Include="elements\status.cs" />
+    <Compile Include="elements\validatedestination.cs" />
+    <Compile Include="elements\warnings.cs" />
+    <Compile Include="elements\warningmessage.cs" />
+    <Compile Include="elements\warninglocation.cs" />
+    <Compile Include="elements\warningdomain.cs" />
+    <Compile Include="elements\warningcode.cs" />
+    <Compile Include="elements\warning.cs" />
+    <Compile Include="elements\productcontrol.cs" />
+    <Compile Include="elements\excludeddestination.cs" />
+    <Compile Include="elements\requireddestination.cs" />
+    <Compile Include="elements\productreviewcount.cs" />
+    <Compile Include="elements\productreviewaverage.cs" />
+    <Compile Include="elements\pattern.cs" />
+    <Compile Include="elements\material.cs" />
+    <Compile Include="elements\itemgroupid.cs" />
+    <Compile Include="elements\googleproductcategory.cs" />
+    <Compile Include="elements\gender.cs" />
+    <Compile Include="elements\year.cs" />
+    <Compile Include="elements\size.cs" />
+    <Compile Include="elements\publisher.cs" />
+    <Compile Include="elements\productweight.cs" />
+    <Compile Include="elements\pages.cs" />
+    <Compile Include="elements\mpn.cs" />
+    <Compile Include="elements\modelnumber.cs" />
+    <Compile Include="elements\manufacturer.cs" />
+    <Compile Include="elements\genre.cs" />
+    <Compile Include="elements\featuredproduct.cs" />
+    <Compile Include="elements\feature.cs" />
+    <Compile Include="elements\edition.cs" />
+    <Compile Include="elements\shippingweight.cs" />
+    <Compile Include="elements\shippingprice.cs" />
+    <Compile Include="elements\shippingservice.cs" />
+    <Compile Include="elements\shippingregion.cs" />
+    <Compile Include="elements\shippingcountry.cs" />
+    <Compile Include="elements\shipping.cs" />
+    <Compile Include="elements\taxship.cs" />
+    <Compile Include="elements\taxrate.cs" />
+    <Compile Include="elements\taxregion.cs" />
+    <Compile Include="elements\taxcountry.cs" />
+    <Compile Include="elements\tax.cs" />
+    <Compile Include="elements\imagelink.cs" />
+    <Compile Include="elements\expirationdate.cs" />
+    <Compile Include="elements\price.cs" />
+    <Compile Include="elements\quantity.cs" />
+    <Compile Include="elements\producttype.cs" />
+    <Compile Include="elements\gtin.cs" />
+    <Compile Include="elements\targetcountry.cs" />
+    <Compile Include="elements\productid.cs" />
+    <Compile Include="elements\accountstatus.cs" />
+    <Compile Include="elements\adultcontent.cs" />
+    <Compile Include="elements\internalid.cs" />
+    <Compile Include="elements\reviewsurl.cs" />
+    <Compile Include="productentry.cs" />
+    <Compile Include="productfeed.cs" />
+    <Compile Include="productquery.cs" />
+    <Compile Include="itemquery.cs" />
+    <Compile Include="contentforshoppingnametable.cs" />
+    <Compile Include="contentforshoppingservice.cs" />
+    <Compile Include="managedaccountsentry.cs" />
+    <Compile Include="managedaccountsfeed.cs" />
+    <Compile Include="managedaccountsquery.cs" />
+    <Compile Include="managedaccountsservice.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\core\Core Client.csproj">
+      <Project>{B6F6D938-0D45-42BA-8A67-55D92EF03995}</Project>
+      <Name>Core Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\extensions\Common Data Extensions.csproj">
+      <Project>{21BCB644-F9C3-4ADC-8BE1-4E55C6565011}</Project>
+      <Name>Common Data Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
